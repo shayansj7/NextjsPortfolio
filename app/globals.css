@@ -28,7 +28,7 @@ body {
 /* main contents */
 .content {
   flex: 1;
-  padding: 40px;
+  padding: 0px;
 }
 
 /* sidebar */
