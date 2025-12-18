@@ -4,7 +4,7 @@ import { ProjectCards } from "@/components/ProjectCards";
 export default function Home() {
   return (
     <main className="flex-1">
-      <section className="max-w-6xl mx-auto px-6 py-20">
+      <section className="max-w-6xl mx-auto px-6 py-5">
         {/* Welcome */}
         <p className="text-gray-500 text-sm mb-2">
           Welcome to my portfolio
