@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ProjectCards } from "@/components/ProjectCards";
 
 export default function Home() {
   return (
@@ -44,6 +45,11 @@ export default function Home() {
             </p>
           </div>
         </div>
+
+        {/*Project Section*/}
+
+        <ProjectCards></ProjectCards>
+
       </section>
     </main>
   );
