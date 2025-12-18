@@ -15,10 +15,12 @@ export function ProjectCard({ title, logo, description, tech, url }: ProjectCard
             target="_blank"
             rel="noopener noreferrer"
             className="
-        group rounded-2xl border bg-white p-6
-        hover:shadow-lg transition
-        flex flex-col gap-4
-      "
+  cursor-pointer
+  rounded-2xl border bg-white p-6
+  flex flex-col gap-4
+  transition-transform duration-200
+  hover:-translate-y-1 hover:shadow-xl
+"
         >
             {/* Logo */}
             <div className="h-16 w-16 rounded-xl bg-blue-50 flex items-center justify-center">
@@ -35,7 +37,7 @@ export function ProjectCard({ title, logo, description, tech, url }: ProjectCard
             <h3 className="text-lg font-semibold">{title}</h3>
 
             {/* Description */}
-            <h4 className="text-sm">{description}</h4>
+            <h4 className="text-white">{description}</h4>
 
             {/* Tech stack */}
             <div className="flex flex-wrap gap-2 mt-auto">
