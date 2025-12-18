@@ -3,11 +3,12 @@ import Image from "next/image";
 type ProjectCardProps = {
     title: string;
     logo: string;
+    description: string,
     tech: string[];
     url: string;
 };
 
-export function ProjectCard({ title, logo, tech, url }: ProjectCardProps) {
+export function ProjectCard({ title, logo, description, tech, url }: ProjectCardProps) {
     return (
         <a
             href={url}
@@ -32,6 +33,9 @@ export function ProjectCard({ title, logo, tech, url }: ProjectCardProps) {
 
             {/* Title */}
             <h3 className="text-lg font-semibold">{title}</h3>
+
+            {/* Description */}
+            <h4 className="text-sm">{description}</h4>
 
             {/* Tech stack */}
             <div className="flex flex-wrap gap-2 mt-auto">
