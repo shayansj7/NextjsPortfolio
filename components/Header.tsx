@@ -10,7 +10,7 @@ export default function Header() {
       pathname === path ? "font-bold text-white" : "text-gray-100"
     }`;
   return (
-    <header className="sticky top-0 z-50 bg-black text-white">
+    <header className="sticky top-0 z-50 bg-emerald-800 text-white">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <h1 className="text-xl font-bold tracking-wide">
           Shayan Portfolio
