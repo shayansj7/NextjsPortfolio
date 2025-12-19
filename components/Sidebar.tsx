@@ -11,7 +11,7 @@ import {
 
 export default function Sidebar() {
   return (
-    <aside className="sidebar bg-blue-50">
+    <section className="bg-white">
       <h3>Education</h3>
       <ul>
         <li className="education">
@@ -62,6 +62,6 @@ export default function Sidebar() {
           <span>Movies / TV Series</span>
         </li>
       </ul>
-    </aside>
+    </section>
   );
 }

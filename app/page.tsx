@@ -1,10 +1,11 @@
 import Image from "next/image";
 import { ProjectCards } from "@/components/ProjectCards";
+import Sidebar from "@/components/Sidebar";
 
 export default function Home() {
   return (
     <main className="flex-1">
-      <section className="max-w-6xl mx-auto px-40 py-5">
+      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-16 py-5">
         {/* Welcome */}
         <p className="text-gray-500 text-sm mb-2">
           Welcome to my portfolio
@@ -49,7 +50,12 @@ export default function Home() {
       </section>
       {/*Project Section*/}
 
-        <ProjectCards/>
+      <ProjectCards />
+
+
+      {/* <section className="max-w-6xl mx-auto px-40 py-5">
+        <Sidebar />
+      </section> */}
     </main>
   );
 }
